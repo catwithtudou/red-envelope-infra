@@ -1,10 +1,10 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	"github.com/sirupsen/logrus"
 	"net"
 	"net/rpc"
-	"red-envelope/infra"
 	"reflect"
 )
 

@@ -1,10 +1,10 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	"github.com/sirupsen/logrus"
 	"os"
 	"os/signal"
-	"red-envelope/infra"
 	"reflect"
 	"syscall"
 )

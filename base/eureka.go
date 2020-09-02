@@ -1,9 +1,9 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	"github.com/kataras/iris"
 	"github.com/tietang/go-eureka-client/eureka"
-	"red-envelope/infra"
 	"time"
 )
 

@@ -1,12 +1,12 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
+	"github.com/catwithtudou/red-envelope-infra/logrus"
 	_ "github.com/go-sql-driver/mysql"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
 	"github.com/tietang/props/kvs"
-	"red-envelope/infra"
-	"red-envelope/infra/logrus"
 )
 
 //dbx 数据库实例

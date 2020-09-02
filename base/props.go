@@ -1,9 +1,9 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/props/kvs"
-	"red-envelope/infra"
 	"sync"
 )
 

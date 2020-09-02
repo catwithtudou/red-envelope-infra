@@ -1,11 +1,11 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/middleware/logger"
 	irisrecover "github.com/kataras/iris/middleware/recover"
 	log "github.com/sirupsen/logrus"
-	"red-envelope/infra"
 	"time"
 )
 

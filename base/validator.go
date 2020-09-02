@@ -1,12 +1,12 @@
 package base
 
 import (
+	infra "github.com/catwithtudou/red-envelope-infra"
 	"github.com/go-playground/locales/zh"
 	"github.com/go-playground/universal-translator"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/go-playground/validator.v9"
 	vtzh "gopkg.in/go-playground/validator.v9/translations/zh"
-	"red-envelope/infra"
 )
 
 var validate *validator.Validate
