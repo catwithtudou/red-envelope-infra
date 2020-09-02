@@ -1,4 +1,4 @@
-module red-envelope-infra
+module github.com/catwithtudou/red-envelope-infra
 
 go 1.12
 
