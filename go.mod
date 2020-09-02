@@ -1,4 +1,4 @@
-module red-envelope/infra
+module red-envelope-infra
 
 go 1.12
 
